@@ -47,3 +47,8 @@ python main.py --mode train --save_path model_Depth_2_Residual.pth --plot_path c
 python main.py --mode train --save_path model_Depth_2_Residual_Norm.pth --plot_path curve_Depth_2_Residual_Norm.png --epochs 10 --num_layers 2 --use_residual --use_layer_norm
 
 ```
+## Test
+
+```
+python test.py
+```
